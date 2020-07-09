@@ -41,7 +41,9 @@ void OpenCamera::readFarme()
 	if (frame_.empty()) {
 		return;
 	}
-	ui.labStream->setPixmap(QPixmap::fromImage(mat2qim(frame_)).scaled(imageSize_)) ;
+	//Mat tempFram;
+	//cv::resize(frame_, tempFram, { 100,100 });//Ëõ·ÅÍ¼Æ¬
+	ui.labStream->setPixmap(QPixmap::fromImage(mat2qim(frame_).scaled(imageSize_))) ;
 }
 
 void OpenCamera::on_btnClose_clicked()

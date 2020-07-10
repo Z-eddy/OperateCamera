@@ -7,20 +7,60 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCamera", "src\OpenCamer
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaslerOpenCV", "src\BaslerOpenCV\BaslerOpenCV.vcxproj", "{7165101E-EFA3-40A1-95C9-F5651075BD92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo_BaslerCamera_ShaShiDi", "src\Demo_BaslerCamera_ShaShiDi\Demo_BaslerCamera_ShaShiDi.vcxproj", "{88775162-5F39-49E5-875C-2A442196764E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "src\ConsoleApplication1\ConsoleApplication1.vcxproj", "{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SinglePylonOpenCVTest", "src\SinglePylonOpenCVTest\SinglePylonOpenCVTest.vcxproj", "{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SinglePylonOpenCVTest2", "src\SinglePylonOpenCVTest2\SinglePylonOpenCVTest2.vcxproj", "{ACB14A72-66B8-4AE4-B93B-68593421F812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.ActiveCfg = Debug|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.ActiveCfg = Release|x64
 		{7165101E-EFA3-40A1-95C9-F5651075BD92}.Debug|x64.ActiveCfg = Debug|x64
 		{7165101E-EFA3-40A1-95C9-F5651075BD92}.Debug|x64.Build.0 = Debug|x64
+		{7165101E-EFA3-40A1-95C9-F5651075BD92}.Debug|x86.ActiveCfg = Debug|x64
 		{7165101E-EFA3-40A1-95C9-F5651075BD92}.Release|x64.ActiveCfg = Release|x64
 		{7165101E-EFA3-40A1-95C9-F5651075BD92}.Release|x64.Build.0 = Release|x64
+		{7165101E-EFA3-40A1-95C9-F5651075BD92}.Release|x86.ActiveCfg = Release|x64
+		{88775162-5F39-49E5-875C-2A442196764E}.Debug|x64.ActiveCfg = Debug|x64
+		{88775162-5F39-49E5-875C-2A442196764E}.Debug|x64.Build.0 = Debug|x64
+		{88775162-5F39-49E5-875C-2A442196764E}.Debug|x86.ActiveCfg = Debug|x64
+		{88775162-5F39-49E5-875C-2A442196764E}.Release|x64.ActiveCfg = Release|x64
+		{88775162-5F39-49E5-875C-2A442196764E}.Release|x64.Build.0 = Release|x64
+		{88775162-5F39-49E5-875C-2A442196764E}.Release|x86.ActiveCfg = Release|x64
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Debug|x64.ActiveCfg = Debug|x64
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Debug|x64.Build.0 = Debug|x64
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Debug|x86.Build.0 = Debug|Win32
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Release|x64.ActiveCfg = Release|x64
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Release|x64.Build.0 = Release|x64
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Release|x86.ActiveCfg = Release|Win32
+		{C8B0E2A3-D61F-4F4F-ADA1-A16845D247F4}.Release|x86.Build.0 = Release|Win32
+		{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}.Debug|x64.ActiveCfg = Debug|x64
+		{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}.Debug|x64.Build.0 = Debug|x64
+		{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}.Debug|x86.ActiveCfg = Debug|x64
+		{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}.Release|x64.ActiveCfg = Release|x64
+		{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}.Release|x64.Build.0 = Release|x64
+		{8A725D9F-02C7-4B96-85E4-CCFB9AC530BD}.Release|x86.ActiveCfg = Release|x64
+		{ACB14A72-66B8-4AE4-B93B-68593421F812}.Debug|x64.ActiveCfg = Debug|x64
+		{ACB14A72-66B8-4AE4-B93B-68593421F812}.Debug|x64.Build.0 = Debug|x64
+		{ACB14A72-66B8-4AE4-B93B-68593421F812}.Debug|x86.ActiveCfg = Debug|x64
+		{ACB14A72-66B8-4AE4-B93B-68593421F812}.Release|x64.ActiveCfg = Release|x64
+		{ACB14A72-66B8-4AE4-B93B-68593421F812}.Release|x64.Build.0 = Release|x64
+		{ACB14A72-66B8-4AE4-B93B-68593421F812}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

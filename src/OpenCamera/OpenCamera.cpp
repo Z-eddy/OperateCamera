@@ -1,4 +1,4 @@
-#include "OpenCamera.h"
+ï»¿#include "OpenCamera.h"
 #include<iostream>
 #include<QDebug>
 #include<QImage>
@@ -42,8 +42,9 @@ void OpenCamera::readFarme()
 		return;
 	}
 	//Mat tempFram;
-	//cv::resize(frame_, tempFram, { 100,100 });//Ëõ·ÅÍ¼Æ¬
-	ui.labStream->setPixmap(QPixmap::fromImage(mat2qim(frame_).scaled(imageSize_))) ;
+	//cv::resize(frame_, tempFram, { 100,100 });//ç¼©æ”¾å›¾ç‰‡
+	auto tempImage{ QPixmap::fromImage(mat2qim(frame_).scaled(imageSize_)) };
+	ui.labStream->setPixmap(tempImage) ;
 }
 
 void OpenCamera::on_btnClose_clicked()
